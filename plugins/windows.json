@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-admobpro": {
+            "PACKAGE_NAME": "HelloCordova"
+        },
+        "cordova-plugin-social-message": {
+            "PACKAGE_NAME": "HelloCordova"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "HelloCordova"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "HelloCordova"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "HelloCordova"
+        },
+        "cordova-plugin-ad-unityads": {
+            "PACKAGE_NAME": "HelloCordova"
+        },
+        "cordova-plugin-play-games-services": {
+            "PACKAGE_NAME": "HelloCordova"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-extension": {
+            "PACKAGE_NAME": "HelloCordova"
+        },
+        "cordova-plugin-ad-unityads-sdk": {
+            "PACKAGE_NAME": "HelloCordova"
+        }
+    }
+}
