@@ -1,0 +1,693 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "jsapp/template-phaser-portrait/sample.zip",
+      "projectGuid": "a9197e65-77d0-4f38-af16-0c7a8b51a488",
+      "lastModifiedDate": 1469728722006,
+      "creationDate": 1467863864596
+    },
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
+    "projectDirectories": {
+      "www/xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "libraries": [],
+    "serviceMethods": [],
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {
+      "gameEngineName": "phaser",
+      "gameEngineVersion": "2.4.2"
+    },
+    "projectTags": [
+      "XDK-game-app"
+    ],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-statusbar",
+        "name": "StatusBar",
+        "version": "2.0.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-statusbar",
+        "gitref": "",
+        "paramvals": {},
+        "selectedState": "Included",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova StatusBar Plugin",
+        "data": {},
+        "dependedBy": [],
+        "checksum": "b92cbbef"
+      },
+      {
+        "id": "cordova-plugin-device",
+        "version": "1.1.0",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-device",
+        "permissions": {},
+        "topLevel": true,
+        "gitref": "",
+        "name": "Device",
+        "description": "Cordova Device Plugin",
+        "checksum": "1eae5d64",
+        "cordovaVersion": ">=3.0"
+      },
+      {
+        "id": "cordova-plugin-splashscreen",
+        "version": "2.1.0",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-splashscreen",
+        "permissions": {},
+        "topLevel": true,
+        "gitref": "",
+        "name": "Splashscreen",
+        "description": "Cordova Splashscreen Plugin",
+        "checksum": "a7fdb6d9",
+        "cordovaVersion": ">=3.0.0"
+      },
+      {
+        "id": "cordova-plugin-admobpro",
+        "name": "AdMob Plugin Pro",
+        "version": "2.18.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-admobpro",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-admobpro",
+        "selectedState": "Included",
+        "checksum": "5a2d5eb5",
+        "dependsOn": [
+          "cordova-plugin-extension"
+        ],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0",
+        "author": "Liming Xie",
+        "permissions": {
+          "android:name": [
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE"
+          ]
+        },
+        "description": "Ultimate Cordova Plugin for Google AdMob and DFP to monetize hybrid apps. Show mobile Ad with single line of JavaScript. Compatible with Cordova CLI, PhoneGap Build, Intel XDK/Crosswalk, Google ChromeApp, Ionic, Meteor, etc.",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-extension",
+        "name": "Cordova Plugin Extension",
+        "version": "1.5.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-extension",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-extension",
+        "selectedState": "Included",
+        "checksum": "6a59c1f1",
+        "dependsOn": [],
+        "topLevel": false,
+        "cordovaVersion": ">=3.0",
+        "author": "Liming Xie",
+        "permissions": {},
+        "description": "Common interface and reusable code, as dependency of other plugins",
+        "data": {},
+        "dependedBy": [
+          "cordova-plugin-admobpro"
+        ],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-social-message",
+        "name": "Social Message",
+        "version": "0.4.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-social-message",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-social-message",
+        "selectedState": "Included",
+        "checksum": "e9316a7c",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "author": "Lee Crossley (http://ilee.co.uk/)",
+        "permissions": {
+          "android:name": [
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ]
+        },
+        "description": "Cordova Social Message Plugin to utilise native share features. Share text, images and urls to Facebook, Twitter and more.",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-ad-unityads",
+        "name": "Cordova UnityAds plugin",
+        "version": "1.0.35",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-ad-unityads",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-ad-unityads",
+        "selectedState": "Included",
+        "checksum": "fff41878",
+        "dependsOn": [
+          "cordova-plugin-ad-unityads-sdk"
+        ],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "author": "Sang Ki Kwon (Cranberrygame)",
+        "permissions": {},
+        "description": "Show unityads video ad and rewarded video ad",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-ad-unityads-sdk",
+        "name": "Cordova UnityAds SDK",
+        "version": "1.0.3",
+        "originType": "repo",
+        "origin": "https://github.com/cranberrygame/cordova-plugin-ad-unityads-sdk",
+        "gitref": "",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-ad-unityads-sdk",
+        "selectedState": "Included",
+        "checksum": "887afeed",
+        "dependsOn": [],
+        "topLevel": false,
+        "cordovaVersion": ">=3.0.0",
+        "author": "Sang Ki Kwon (Cranberrygame)",
+        "permissions": {
+          "android:name": [
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE"
+          ]
+        },
+        "description": "Show unityads video ad and rewarded video ad",
+        "data": {},
+        "dependedBy": [
+          "cordova-plugin-ad-unityads"
+        ],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-play-games-services",
+        "name": "PlayGamesServices",
+        "version": "1.0.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-play-games-services",
+        "gitref": "",
+        "paramvals": {
+          "APP_ID": "304075533582"
+        },
+        "sourceLocation": "plugins/cordova-plugin-play-games-services",
+        "selectedState": "Included",
+        "checksum": "72b62eb1",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=4.0.0",
+        "author": "Alberto Varela",
+        "permissions": {
+          "android:name": [
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE"
+          ]
+        },
+        "description": "Google Play Games Services Cordova Plugin",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      }
+    ],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "Fullscreen": true,
+          "Orientation": "portrait",
+          "android-signed": true
+        },
+        "isActive_": true,
+        "appName_": "Llama",
+        "appID_": "com.gamesbyluis.flipllama",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "market:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "relPath": "icons/icon36.png",
+            "density": "ldpi",
+            "height": 36,
+            "width": 36
+          },
+          {
+            "relPath": "icons/icon72_2.png",
+            "density": "hdpi",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "icons/icon48.png",
+            "density": "mdpi",
+            "height": 48,
+            "width": 48
+          },
+          {
+            "relPath": "icons/icon96.png",
+            "density": "xhdpi",
+            "height": 96,
+            "width": 96
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "icons/splash426.png",
+            "density": "ldpi",
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash470.png",
+            "density": "mdpi",
+            "height": 470,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash640.png",
+            "density": "hdpi",
+            "height": 640,
+            "width": 480,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash720.png",
+            "density": "xhdpi",
+            "height": 960,
+            "width": 720,
+            "orientation": "portrait"
+          }
+        ],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "fwXdEODimUSj9MPcE9FFDg2",
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "14",
+        "appVersion_": "0.9.1",
+        "appDescription_": "Jumpy goes the Llama!",
+        "appAuthor_": "Luis Gonzalez",
+        "appVersionCode_": "2"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-configuration": "adhoc",
+          "Fullscreen": true,
+          "Orientation": "portrait",
+          "deployment-target": "9.0",
+          "exit-on-suspend": false
+        },
+        "isActive_": true,
+        "appName_": "Llama",
+        "appID_": "com.gamesbyluis.pocketllama",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "itms:*",
+            "itms-apps:*"
+          ],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [
+          {
+            "relPath": "icons/icon29.png",
+            "height": 29,
+            "width": 29
+          },
+          {
+            "relPath": "icons/icon58.png",
+            "height": 58,
+            "width": 58
+          },
+          {
+            "relPath": "icons/icon87.png",
+            "height": 87,
+            "width": 87
+          },
+          {
+            "relPath": "icons/icon60.png",
+            "height": 60,
+            "width": 60
+          },
+          {
+            "relPath": "icons/icon120.png",
+            "height": 120,
+            "width": 120
+          },
+          {
+            "relPath": "icons/icon180.png",
+            "height": 180,
+            "width": 180
+          },
+          {
+            "relPath": "icons/icon76.png",
+            "height": 76,
+            "width": 76
+          },
+          {
+            "relPath": "icons/icon152.png",
+            "height": 152,
+            "width": 152
+          },
+          {
+            "relPath": "icons/icon40.png",
+            "height": 40,
+            "width": 40
+          },
+          {
+            "relPath": "icons/icon80.png",
+            "height": 80,
+            "width": 80
+          },
+          {
+            "relPath": "icons/icon57.png",
+            "height": 57,
+            "width": 57
+          },
+          {
+            "relPath": "icons/icon114.png",
+            "height": 114,
+            "width": 114
+          },
+          {
+            "relPath": "icons/icon72.png",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "icons/icon144.png",
+            "height": 144,
+            "width": 144
+          },
+          {
+            "relPath": "icons/icon100.png",
+            "height": 100,
+            "width": 100
+          },
+          {
+            "relPath": "icons/icon50.png",
+            "height": 50,
+            "width": 50
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "icons/splash1334.png",
+            "height": 1334,
+            "width": 750,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash2208.png",
+            "height": 2208,
+            "width": 1242,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash1136.png",
+            "height": 1136,
+            "width": 640,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash960.png",
+            "height": 960,
+            "width": 640,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash480.png",
+            "height": 480,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash2048.png",
+            "height": 2048,
+            "width": 1536,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "icons/splash1024.png",
+            "height": 1024,
+            "width": 768,
+            "orientation": "portrait"
+          }
+        ],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "kfV0k2jpLkScfeO3WVyUIg2",
+        "iosProvs_": [
+          {
+            "relPath": "PocketLLamaAdHoc.mobileprovision",
+            "type": "adhoc"
+          },
+          {
+            "relPath": "PocketLlamaStore.mobileprovision",
+            "type": "production"
+          }
+        ],
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "16",
+        "appVersion_": "0.5.0",
+        "appDescription_": "Jump a Llama!",
+        "appAuthor_": "Luis Gonzalez"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": "",
+          "Fullscreen": true,
+          "Orientation": "portrait"
+        },
+        "isActive_": false,
+        "appName_": "LlamaFlip",
+        "appID_": "xdk.intel.phaser.js.project",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*"
+          ],
+          "navigation": [],
+          "properties": {}
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "cordovaCLIVersion_": "5.1.1",
+        "crosswalkVersion_": "16",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Use this template to start with a blank portrait Game from Phaser",
+        "appAuthor_": "Intel XDK"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "LlamaFlip",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "LlamaFlip",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "LlamaFlip",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "LlamaFlip",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "Cordova 3.x",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "LlamaFlip",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "certificateId_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.1.1",
+        "appAuthor_": "Intel XDK"
+      }
+    },
+    "testDirectory": "test"
+  }
+}

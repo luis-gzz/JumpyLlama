@@ -1,0 +1,26 @@
+body {
+    margin: 0px 0px 1px 0px; /* the extra 1px allows the iOS inner/outer check to work */
+    background: #000;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'homespun_tt_brkregular';
+    src: url('homespun-webfont.eot');
+    src: url('homespun-webfont.eot?#iefix') format('embedded-opentype'),
+         url('homespun-webfont.woff2') format('woff2'),
+         url('homespun-webfont.woff') format('woff'),
+         url('homespun-webfont.ttf') format('truetype'),
+         url('homespun-webfont.svg#homespun_tt_brkregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+image-rendering: optimizeSpeed;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
